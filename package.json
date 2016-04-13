@@ -1,0 +1,30 @@
+{
+  "name": "imweb-base-qjs",
+  "version": "0.1.5",
+  "description": "imweb-base-qjs",
+  "keywords": [],
+  "homepage": "",
+  "author": "vincentlws <vincentliangws@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "bugs": {
+    "url": ""
+  },
+  "licenses": "MIT",
+  "lego": {
+    "category": "34",
+    "categoryName": "MVVM",
+    "main": "index.js",
+    "dependencies": {      
+      "huatuo": "0.0.3",
+      "tx-monitor": "0.0.2",
+      "imweb-report": "1.0.5",
+      "badjs-report": "1.1.7"
+    },
+    "devDependencies": {
+      "expect.js": "0.3.1"      
+    }
+  }
+}
